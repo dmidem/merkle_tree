@@ -211,7 +211,7 @@ fn test() {
 
     type Tree = MerkleTree<crate::hasher::SdbmHasher>;
 
-    let tree = Tree::from_data_items(items.iter());
+    let tree = Tree::from_data_items(&items);
 
     let root_hash = tree.get_root().unwrap();
 
