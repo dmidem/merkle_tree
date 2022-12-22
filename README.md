@@ -7,7 +7,9 @@ tree.
 See the following links for more information on Merkle tree and how it is used:
 
 https://en.wikipedia.org/wiki/Merkle_tree:
+
 https://en.bitcoin.it/wiki/Merged_mining_specification#Merkle_Branch
+
 http://bittorrent.org/beps/bep_0030.html
 
 ## Example of usage:
