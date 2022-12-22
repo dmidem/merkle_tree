@@ -14,7 +14,7 @@ http://bittorrent.org/beps/bep_0030.html
 
 ## Example of usage:
 
-```
+```rust
 use merkle_tree::{tree::MerkleTree, hasher::SdbmHasher};
 
 type Tree = MerkleTree<SdbmHasher>;
